@@ -16,6 +16,10 @@ Vehicle detection using these machine learning and computer vision techniques.
 * Histogram of color extraction
 * Sliding Window
 
+## Note
+
+First, you need to get training data(cars and not-cars). You can get car images from [GTI vehicle image database](http://www.gti.ssr.upm.es/data/Vehicle_database.html), [KITTI vision benchmark](http://www.cvlibs.net/datasets/kitti/)). And over 1500 images per each is good for this project.
+
 ## Defining utility functions
 
 
