@@ -26,21 +26,27 @@ First, you need to get training data(cars and not-cars). You can get car images 
 pip install -r requirements.txt
 ```
 
+## Run jupyter notebook
+
+```
+jupyter notebook
+```
+
 ## Defining utility functions
 
 
 ```python
+import glob
+import time
+import cv2
+import numpy as np
 import matplotlib.image as mpimg
 import matplotlib.pyplot as plt
-import numpy as np
 from skimage.feature import hog
 from sklearn.model_selection import train_test_split
 from sklearn.svm import LinearSVC
 from sklearn.preprocessing import StandardScaler
 from skimage.feature import hog
-import glob
-import time
-import cv2
 %matplotlib inline
 ```
 
