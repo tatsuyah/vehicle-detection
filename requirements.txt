@@ -1,0 +1,12 @@
+numpy==1.13.3
+matplotlib==2.1.0
+jupyter==1.0.0
+pillow==4.3.0
+scikit-learn==0.19.1
+scikit-image==0.13.1
+scipy==1.0.0
+h5py==2.7.1
+seaborn==0.8.1
+pandas==0.21.0
+imageio==2.1.2
+moviepy==0.2.3.2
